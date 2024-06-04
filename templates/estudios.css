@@ -1,0 +1,43 @@
+.estudios{
+    
+    width: 100%;
+    height: 250px;
+    margin-top: 10%;
+    font-family: 'general';
+    font-size: 1.5vw;
+
+    h1{
+        font-family: 'miFuente';
+        font-size: 4vw;
+        text-shadow: 4px 4px 8px rgb(53, 172, 138);
+       }
+
+    .texto{
+        width: 70%;
+        padding: 30px;
+        }
+
+    .img{
+        
+        width: 20%;
+        height: 50%;
+        float: right;
+        margin-right: 10%;
+        margin-top: 5%;
+        .ele{
+            
+                img{
+                    margin-top: 5%;
+                    border-radius: 30%;
+                    width: 100%;
+                }
+            }
+        .pro{
+            img{
+                margin-top: 7%;
+                border-radius: 30%;
+                width: 100%;
+            }
+        }
+    }
+}
