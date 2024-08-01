@@ -18,9 +18,32 @@
         padding: 2%;
     }
 }
+.p button{
+    height: 40px;
+    font-family: 'miFuente';
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    background: transparent;
+    border: 0;
+    color: rgb(53, 172, 138);
+    cursor: pointer;
+    outline: 0;
+    font-size: 3vw;
+}
     .l{
         margin-top: 5%;
     } 
+
+    .l button{
+        height: 40px;
+        font-family: 'miFuente';
+        text-shadow: 2px 2px 2px rgb(255, 255, 255);
+        background: transparent;
+        border: 0;
+        color: rgb(53, 172, 138);
+        cursor: pointer;
+        outline: 0;
+        font-size: 3vw;
+    }
     img{
         margin-top: 2%;
         width: 30%;
@@ -46,5 +69,5 @@ hr{
     color: rgb(53, 172, 138);
     cursor: pointer;
     outline: 0;
-    font-size: 20px;
+    font-size: 3vw;
 }
