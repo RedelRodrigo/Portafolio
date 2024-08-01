@@ -1,66 +1,23 @@
-.proyectos{
-    h1 center{
+.proyectos {
+    h1 center {
         margin-top: 5%;
         font-family: 'miFuente';
         font-size: 4vw;
         text-shadow: 4px 4px 8px rgb(53, 172, 138);
     }
-    
+
     font-family: 'general';
     font-size: 1vw;
     text-align: center;
-    .p{
-        margin-top: 5%;
-    
-    img{
-        margin-top: 3%;
-        width: 30%;
-        padding: 2%;
-    }
-}
-.p button{
-    height: 40px;
-    font-family: 'miFuente';
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
-    background: transparent;
-    border: 0;
-    color: rgb(53, 172, 138);
-    cursor: pointer;
-    outline: 0;
-    font-size: 3vw;
-}
-    .l{
-        margin-top: 5%;
-    } 
 
-    .l button{
-        height: 40px;
-        font-family: 'miFuente';
-        text-shadow: 2px 2px 2px rgb(255, 255, 255);
-        background: transparent;
-        border: 0;
-        color: rgb(53, 172, 138);
-        cursor: pointer;
-        outline: 0;
-        font-size: 3vw;
-    }
-    img{
+    img {
         margin-top: 2%;
         width: 30%;
         padding: 2%;
     }
 }
-hr{
-    margin-top: 3%;
-}
 
-.calculadora h1{
-    margin-top: 5%;
-        font-family: 'miFuente';
-        font-size: 4vw;
-        text-shadow: 4px 4px 8px rgb(53, 172, 138);
-}
-.calculadora button{
+button {
     height: 40px;
     font-family: 'miFuente';
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
@@ -70,4 +27,15 @@ hr{
     cursor: pointer;
     outline: 0;
     font-size: 3vw;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main div {
+    margin: 5%;
+    padding: 3%;
+    border: 1px solid;
 }
