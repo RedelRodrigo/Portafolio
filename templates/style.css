@@ -73,7 +73,7 @@ p{
     }
 
    .presentación{
-        width: 70%;
+        width: 100%;
         padding: 30px;
    
    }
@@ -104,11 +104,11 @@ footer{
 }
 .menu{
     font-family: 'general';
-    width: 100%;
     margin-top: 10%;
     font-size: 2vw ;
+    display: flex;
+    justify-content: space-around;
     a{
-        margin-left: 29%;
         color: rgb(53, 172, 138);
         text-decoration: none;
     }
@@ -119,4 +119,8 @@ footer{
     *{
         font-size: large;
     }
+    .fotodemi{
+        position: relative;
+    }
+    
 }
